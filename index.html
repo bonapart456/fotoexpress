@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FotoExpress Studio | Estudio de Fotografia</title>
+    <meta
+        name="description"
+        content="Sitio minimalista para un estudio de fotografia con video de apertura, galeria y servicios profesionales."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <main>
+            <section class="hero" id="inicio">
+                <div class="hero-visual reveal is-visible">
+                    <article class="video-card video-card-fullscreen">
+                        <video
+                            class="hero-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto"
+                        >
+                            <source src="portada.mp4" type="video/mp4">
+                        </video>
+                        <div class="hero-top-title">
+                            <span>Foto Express</span>
+                        </div>
+                        <nav class="hero-top-nav" aria-label="Navegacion principal">
+                            <a href="#portafolio">Galeria</a>
+                            <a href="#estudio">Experiencia</a>
+                            <a href="#servicios">Clientes</a>
+                            <a href="#contacto">Contacto</a>
+                        </nav>
+                        <div class="video-overlay video-overlay-centered">
+                            <p class="hero-kicker">Direccion visual y fotografia de estudio</p>
+                            <h1>Estudio fotografico Foto Express</h1>
+                            <a class="button button-primary" href="#portafolio">Portafolio</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section intro reveal" id="estudio">
+                <div class="intro-layout">
+                    <div class="intro-copy reveal">
+                        <div class="section-heading">
+                            <p class="eyebrow">El estudio</p>
+                            <h2>Minimalismo visual, control tecnico y una estetica sobria.</h2>
+                        </div>
+                        <p class="section-copy">
+                            El sitio fue replanteado para verse como un estudio fotografico profesional: mas silencioso,
+                            mas serio y con la imagen como protagonista. La interfaz reduce adornos y deja que el trabajo
+                            hable con claridad.
+                        </p>
+                    </div>
+                    <figure class="intro-image reveal reveal-delay">
+                        <img src="https://images.pexels.com/photos/3379943/pexels-photo-3379943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1200" alt="Fotografo trabajando con una modelo en estudio" loading="lazy">
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section studio-section">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Espacio de trabajo</p>
+                    <h2>Un estudio preparado para retrato, producto y contenido comercial.</h2>
+                </div>
+
+                <div class="studio-grid">
+                    <article class="studio-card reveal">
+                        <span class="timeline-year">Luz</span>
+                        <div>
+                            <h3>Control de iluminacion para piel, textura y volumen</h3>
+                            <p>
+                                Esquemas ajustados para retratos profesionales, editoriales discretas y fotografia de
+                                producto con acabado limpio.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="studio-card reveal">
+                        <span class="timeline-year">Proceso</span>
+                        <div>
+                            <h3>Produccion ordenada desde la idea hasta la entrega</h3>
+                            <p>
+                                Cada sesion se trabaja con planeacion, referencias visuales, direccion en set y una
+                                seleccion final pensada para uso comercial y digital.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="studio-card reveal">
+                        <span class="timeline-year">Entrega</span>
+                        <div>
+                            <h3>Archivos listos para web, campañas y materiales impresos</h3>
+                            <p>
+                                Imagenes editadas con consistencia, pensadas para catálogos, redes, branding personal o
+                                presentaciones corporativas.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section portfolio-section" id="portafolio">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Portafolio</p>
+                    <h2>Mas imagenes, una composicion mas libre y mas artistica.</h2>
+                </div>
+
+                <div class="portfolio-filters reveal" role="tablist" aria-label="Filtros del portafolio">
+                    <button class="filter-button is-active" data-filter="all" type="button">Todo</button>
+                    <button class="filter-button" data-filter="editorial" type="button">Editorial</button>
+                    <button class="filter-button" data-filter="eventos" type="button">Eventos</button>
+                    <button class="filter-button" data-filter="marca" type="button">Marca</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <article class="portfolio-card reveal" data-category="editorial">
+                        <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Retrato editorial en estudio con iluminacion lateral" loading="lazy">
+                        <div>
+                            <span>Editorial</span>
+                            <h3>Retrato editorial con direccion sobria</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="eventos">
+                        <img src="https://images.pexels.com/photos/274973/pexels-photo-274973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Cobertura de evento elegante en interior" loading="lazy">
+                        <div>
+                            <span>Eventos</span>
+                            <h3>Cobertura discreta y observacional</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="marca">
+                        <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Retrato para marca personal con fondo oscuro" loading="lazy">
+                        <div>
+                            <span>Marca</span>
+                            <h3>Imagen de marca para presencia profesional</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="editorial">
+                        <img src="https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Sesion editorial de moda con expresion sobria" loading="lazy">
+                        <div>
+                            <span>Editorial</span>
+                            <h3>Moda, gesto y textura</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="eventos">
+                        <img src="https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Escena de evento con luces y publico" loading="lazy">
+                        <div>
+                            <span>Eventos</span>
+                            <h3>Registro de ambiente y presencia</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="marca">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Retrato corporativo con fondo neutro y pose formal" loading="lazy">
+                        <div>
+                            <span>Marca</span>
+                            <h3>Retrato corporativo con caracter</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="editorial">
+                        <img src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Retrato editorial minimalista con gesto contenido" loading="lazy">
+                        <div>
+                            <span>Editorial</span>
+                            <h3>Contraste, fondo neutro y direccion limpia</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="marca">
+                        <img src="https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Fotografia de producto premium sobre fondo oscuro" loading="lazy">
+                        <div>
+                            <span>Marca</span>
+                            <h3>Producto con luz controlada y detalle</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="eventos">
+                        <img src="https://images.pexels.com/photos/3321797/pexels-photo-3321797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Lanzamiento de marca con asistentes en ambiente elegante" loading="lazy">
+                        <div>
+                            <span>Eventos</span>
+                            <h3>Lanzamientos, backstage y activaciones</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="editorial">
+                        <img src="https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1100" alt="Retrato monocromatico de estudio con contraste suave" loading="lazy">
+                        <div>
+                            <span>Editorial</span>
+                            <h3>Series monocromaticas con enfoque editorial</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="marca">
+                        <img src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1500&w=1100" alt="Sesion de branding con sombra marcada y luz de estudio" loading="lazy">
+                        <div>
+                            <span>Marca</span>
+                            <h3>Sombras duras y presencia de marca</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="editorial">
+                        <img src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1600&w=1100" alt="Retrato artistico con encuadre experimental y fondo oscuro" loading="lazy">
+                        <div>
+                            <span>Editorial</span>
+                            <h3>Encuadres experimentales y ritmo visual</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="eventos">
+                        <img src="https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1100&w=1500" alt="Backstage fotografico capturado en monocromo" loading="lazy">
+                        <div>
+                            <span>Eventos</span>
+                            <h3>Backstage con textura documental</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="editorial">
+                        <img src="https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1500&w=1100" alt="Figura en estudio con composicion abstracta y volumen de luz" loading="lazy">
+                        <div>
+                            <span>Editorial</span>
+                            <h3>Cuerpo, forma y vacio en composicion</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="marca">
+                        <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1100&w=1500" alt="Fotografia de producto con reflejo controlado y superficie limpia" loading="lazy">
+                        <div>
+                            <span>Marca</span>
+                            <h3>Superficies, reflejos y materia</h3>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" data-category="eventos">
+                        <img src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1500&w=1100" alt="Publico y escena durante un evento cultural nocturno" loading="lazy">
+                        <div>
+                            <span>Eventos</span>
+                            <h3>Escena, publico y atmosfera en capas</h3>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section services-section" id="servicios">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Servicios</p>
+                    <h2>Produccion fotografica clara, funcional y profesional.</h2>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card reveal">
+                        <h3>Retrato de estudio</h3>
+                        <p>
+                            Sesiones para ejecutivos, creativos, artistas y marca personal con direccion precisa y
+                            resultados listos para medios digitales o impresos.
+                        </p>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <h3>Fotografia de producto</h3>
+                        <p>
+                            Tomas para ecommerce, catalogo, campañas y contenido comercial con iluminacion enfocada en
+                            forma, materialidad y detalle.
+                        </p>
+                    </article>
+
+                    <article class="service-card reveal">
+                        <h3>Contenido para marcas</h3>
+                        <p>
+                            Produccion de imagenes para redes, branding, web y campañas con una linea visual consistente
+                            y util para negocio.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section testimonial-section reveal">
+                <div class="testimonial-card">
+                    <p class="eyebrow">Percepcion de clientes</p>
+                    <blockquote>
+                        "El estudio entiende exactamente como debe verse una imagen profesional: limpia, sobria y lista
+                        para representar una marca con seriedad."
+                    </blockquote>
+                    <span>Cliente comercial</span>
+                </div>
+            </section>
+
+            <section class="section contact-section" id="contacto">
+                <div class="contact-copy reveal">
+                    <p class="eyebrow">Contacto</p>
+                    <h2>Reserva una sesion o solicita una propuesta para tu marca.</h2>
+                    <p>
+                        Esta version ya esta orientada a estudio fotografico. Se puede personalizar con nombre real,
+                        ubicacion, redes, tarifas, paquetes y un formulario funcional.
+                    </p>
+                </div>
+
+                <div class="contact-panel reveal reveal-delay">
+                    <p>Agenda una llamada o cotiza una produccion fotografica.</p>
+                    <a href="mailto:hola@fotoexpress.com">hola@fotoexpress.com</a>
+                    <a href="tel:+5215555555555">+52 1 555 555 5555</a>
+                    <span>Ciudad de Mexico · Sesiones en estudio y produccion para marcas</span>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
